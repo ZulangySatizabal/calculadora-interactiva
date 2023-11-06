@@ -1,3 +1,11 @@
+# Calculadora Interactiva con React
+
+Como parte del aprendizaje basico de React del curso [Aprende React Desde Cero](https://www.youtube.com/watch?v=6Jfk8ic3KVk&t=13923s) de FreeCodCamp en Español.
+
+Desarrollado por [Zulangy Satizabal](https://www.linkedin.com/in/zulangy-satizabal/)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

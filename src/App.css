@@ -6,7 +6,7 @@
 
 .App {
   height: 100vh;
-  padding-top: 10px;
+  padding-top: 15px;
   background-color: #ff59c7;
   font-family: Lato, sans-serif;
   display: flex;
@@ -15,6 +15,7 @@
   align-items: center;
   overflow: auto;
 }
+
 .container_logo {
   width: 100%;
   height: 50px;
@@ -39,4 +40,11 @@
   background-color: black;
   border-radius: 20px;
   border: 5px solid white;
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
