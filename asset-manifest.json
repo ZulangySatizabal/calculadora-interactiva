@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/calculadora-interactiva/static/css/main.30e8adc3.css",
+    "main.js": "/calculadora-interactiva/static/js/main.fe356c7b.js",
+    "index.html": "/calculadora-interactiva/index.html",
+    "static/media/calculator_logo.svg": "/calculadora-interactiva/static/media/calculator_logo.122a7e2bc76c83db682c6fa571cf43ec.svg",
+    "main.30e8adc3.css.map": "/calculadora-interactiva/static/css/main.30e8adc3.css.map",
+    "main.fe356c7b.js.map": "/calculadora-interactiva/static/js/main.fe356c7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30e8adc3.css",
+    "static/js/main.fe356c7b.js"
+  ]
+}
