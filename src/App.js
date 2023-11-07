@@ -5,7 +5,7 @@ import Pantalla from "./components/Pantalla";
 import BtnClear from "./components/BtnClear";
 import { useState } from "react";
 import Footer from "./components/Footer/Footer";
-// import { evaluate } from "mathjs";
+import { evaluate } from "mathjs";
 
 function App() {
   const [input, setInput] = useState("");
@@ -14,13 +14,13 @@ function App() {
     setInput(input + valor);
   };
 
-  // const calcularResultado = () => {
-  //   if (input) { //si cadena vacia(input) = falso
-  //     setInput(evaluate(input));
-  //   }else{
-  //     alert("Por favor ingrese valores para realizar el calculo");
-  //   }
-  // };
+  const calcularResultado = () => {
+    if (input) { //si cadena vacia(input) = falso
+      setInput(evaluate(input));
+    }else{
+      alert("Por favor ingrese valores para realizar el calculo");
+    }
+  };
 
   return (
     <div className="App">
@@ -53,16 +53,16 @@ function App() {
           <Boton manejarClic={agregarInput}>*</Boton>
         </div>
         <div className="fila">
-          <Boton manejarClic={agregarInput}>=</Boton>
+          <Boton manejarClic={calcularResultado}>=</Boton>
           <Boton manejarClic={agregarInput}>0</Boton>
           <Boton manejarClic={agregarInput}>.</Boton>
           <Boton manejarClic={agregarInput}>/</Boton>
         </div>
         <div className="fila">
-          <BtnClear manejarClear={() => setInput("")}>Clear</BtnClear>
+          <BtnClear manejarClear={() => setInput("")}>Borrar</BtnClear>
         </div>
       </div>
-      {/* <div><Footer /></div> */}
+      <Footer />
     </div>
   );
 }
